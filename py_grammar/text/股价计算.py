@@ -1,0 +1,9 @@
+name='王者荣耀'
+stock_code="003032"
+stock_price=19.99
+stock_price_daily_growth_factor=1.2
+growth_day=7
+total_price=19.99*1.2**7
+print(f"公司：{name},股票代码：{stock_code},当前股价：{stock_price},每日增长系数是：\
+{stock_price_daily_growth_factor},经过{growth_day}的增长")
+print("股价为{}".format(total_price))

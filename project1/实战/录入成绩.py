@@ -1,0 +1,8 @@
+a = input()
+s = a.split(';')
+number = float(s[0])
+scores_str_list = s[1].split(',')
+a_score = float(scores_str_list[0])
+b_score = float(scores_str_list[1])
+c_score = float(scores_str_list[2])
+print("The each subject score of No. %.0f is %.2f, %.2f, %.2f."%(number,a_score,b_score,c_score))
